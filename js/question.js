@@ -10,4 +10,7 @@ class Question{
         this.rans = rans;
         this.isMarked = false;
     }
+    toggle(){
+        this.isMarked = !this.isMarked;
+    }
 }
